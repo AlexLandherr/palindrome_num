@@ -1,3 +1,4 @@
+#include "include/functions.h"
 #include <iostream>
 
 /*
@@ -8,6 +9,7 @@ Find the largest palindrome number that is a product of two three-digit numbers.
 */
 
 int main() {
+    std::cout << func::is_palindrome("9009") << '\n';
 
     return 0;
 }
