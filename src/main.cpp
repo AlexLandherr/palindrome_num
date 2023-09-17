@@ -9,6 +9,8 @@ Find the largest palindrome number that is a product of two three-digit numbers.
 */
 
 int main() {
+    std::cout << "The largest palindrome number that is a product of two three-digit numbers is:" << '\n';
+    std::cout << func::largest_palindrome() << '\n';
 
     return 0;
 }
